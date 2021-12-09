@@ -29,8 +29,8 @@ const multerStorage = multer.diskStorage({
 let transport = nodemailer.createTransport({
         service: 'gmail',
         auth: {
-          user: 'deepakmukundpur@gmail.com',
-          pass: '8953524501'
+          user: 'your-gmail',
+          pass: 'your pass'
         }
 });
 
